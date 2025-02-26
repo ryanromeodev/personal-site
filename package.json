@@ -8,7 +8,7 @@
     "url": "https://github.com/oreymaonr/personal-site.git"
   },
   "engines": {
-    "node": ">=9.x"
+    "node": ">=16.x"
   },
   "scripts": {
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
