@@ -13,6 +13,7 @@ const messages = [
   'hi',
   'hello',
   'hola',
+  'sugamano',
   'you-can-email-me-at-literally-anything! Really',
   'well, not anything. But most things',
   'like-this',
@@ -25,7 +26,6 @@ const messages = [
   'admin',
   'or-I-really-like-your-website',
   'thanks',
-  'sugamano',
 ];
 
 const useInterval = (callback, delay) => {

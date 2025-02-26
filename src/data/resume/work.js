@@ -18,7 +18,7 @@ const work = [
     url: 'https://www.tcs.com/',
     startDate: '2021-07-01',
     endDate: '2023-07-01',
-    summary: 'I worked as Assistant Systems Engineer for The Home Depot.',
+    summary: 'I worked as **Assistant Systems Engineer** for The Home Depot.',
     highlights: [
       'My job and responsibilities were to develop, migrate'
       + 'test and deploy applications which benefited the'

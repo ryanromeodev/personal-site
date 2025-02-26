@@ -23,7 +23,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Ryan. I am a student of {' '}
-        <a href="https://www.hs-bremen.de/">Hochschule Bremen</a>, Having
+        <a href="https://www.hs-bremen.de/">Hochschule Bremen</a>, having
         work experience in IT from {' '} <a href="https://www.tcs.com/">Tata Consultancy Services Ltd.</a>
       </p>
       <ul className="actions">
