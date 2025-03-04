@@ -28,7 +28,7 @@ const Index = () => (
       </p>
       <p>
         {' '}
-        Source available{' '}
+        Source Code of this website is available {' '}
         <a href="https://github.com/oreymaonr/personal-site">here</a>.
       </p>
     </article>
