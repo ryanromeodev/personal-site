@@ -11,6 +11,7 @@ const data = [
       + ' of Frensel formulas for reflection of p- and s- polarised light'
       + ' is performed along with measurement of brewster angle for a'
       + ' p-polarised light.',
+    link: '/resume',
   },
   {
     title: 'Understanding of Linearly polarized light, Malu\'s law,'
