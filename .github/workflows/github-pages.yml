@@ -38,7 +38,9 @@ jobs:
           node-version-file: ".nvmrc"
           cache: "npm"
       - name: Install
-        run: npm ci
+        run: |
+          npm ci
+          sudo apt-get -qqy install google-chrome-stable
       - name: Build and Render
         shell: bash
         run: |
@@ -65,7 +67,7 @@ jobs:
         env:
           NODE_ENV: production
           # Remove this line if you would like to skip using google analytics
-          REACT_APP_GA_TRACKING_ID: UA-68649021-1
+          # REACT_APP_GA_TRACKING_ID: UA-68649021-1
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
