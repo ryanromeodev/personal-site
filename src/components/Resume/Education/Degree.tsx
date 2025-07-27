@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Markdown from 'markdown-to-jsx';
+
 import type { Degree as DegreeType } from '@/data/resume/degrees';
 
 interface DegreeProps {
@@ -14,6 +16,28 @@ const Degree: React.FC<DegreeProps> = ({ data }) => (
         <a href={data.link}>{data.school}</a>, {data.year}
       </p>
     </header>
+    {data.fos ? (
+      <Markdown
+        options={{
+          overrides: {
+            p: {
+              props: {
+                className: 'fos',
+              },
+            },
+          },
+        }}
+      >
+        {data.fos}
+      </Markdown>
+    ) : null}
+    {data.highlights ? (
+      <ul className="points">
+        {data.highlights.map((highlight) => (
+          <li key={highlight}>{highlight}</li>
+        ))}
+      </ul>
+    ) : null}
   </article>
 );
 
