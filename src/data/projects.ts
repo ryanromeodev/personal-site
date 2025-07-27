@@ -9,47 +9,43 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. ' +
-      'NearestDollar connected to your bank accounts, credit cards, ' +
-      'or debit cards and rounded up your purchases to donate the balance to ' +
-      'the charity of your choice.',
+    title: 'Estimation of Brewster angle using Frensel equation',
+    subtitle: 'as a part of Optical Lab',
+    image: '/images/projects/frenselexp.jpg',
+    date: '2024-04-20',
+    desc: ` This experiment is performed to identify the light reflection
+        at an interface between two media. Quantitative verification
+        of Frensel formulas for reflection of p- and s- polarised light
+        is performed along with measurement of brewster angle for a
+        p-polarised light.`,
+    link: '/resume',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+    title:
+      "Understanding of Linearly polarized light, Malu\'s law, and verification of Optical Acivity",
+    subtitle: 'as a part of Optical Lab',
+    image: '/images/projects/malusLaw.jpg',
+    date: '2024-05-20',
+    desc: ` Measurement of optical activity by polarization rotation in a sugar solution,
+        Generation of linearly polarized light with a polaroid filter
+        Analyzing polarized light with a linear polarization polaroid filter
+        Understanding properties of linearly polarized light`,
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras ' +
-      'and gps transponder. Resulting photos were published in a coffee table book. ' +
-      'You can email me for a copy.',
+    title: 'Charecterisation of Laser Radiation',
+    subtitle: 'using Labview and Arduino mega 2560',
+    image: '/images/projects/Claser.jpg',
+    date: '2024-06-20',
+    desc: `Estimated various parametrs of HeNe Laser. For different distances z the Intensity of the laser beam is recorded by'
+        a CCD and the diameter of the laser beam is calculated.`,
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. ' +
-      'Over 60,000 cats were classified before server bills made the project too expensive ' +
-      'to continue hosting.',
+    title: 'Prototype of 3 - phase measurement system',
+    subtitle: 'using Labview and Arduino mega 2560',
+    image: '/images/projects/Lcode.jpg',
+    date: '2023-08-20',
+    desc: `Verification of the output Characteristics of Transistor
+        (BC547B) using LabVIEW and familiarization with LabVIEW software`,
   },
 ];
 
