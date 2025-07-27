@@ -7,7 +7,7 @@ import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
   description:
-    "Michael D'Angelo is a data scientist, machine learning engineer, and full-stack engineer.",
+    "Ryan Romeo is a Master's Student, machine learning engineer, and full-stack engineer.",
 };
 
 export default function HomePage() {
