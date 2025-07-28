@@ -11,139 +11,89 @@ export interface Category {
 
 const skills: Skill[] = [
   {
-    title: 'Javascript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Next.JS',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'Python',
     competency: 4,
+    category: ['Languages', 'Python', 'Data Engineering'],
+  },
+  {
+    title: 'ScipPy, Numpy, Pandas, Matplotlib, Jupyter, Built-in-packages...',
+    competency: 4,
+    category: ['Data Engineering', 'Python'],
+  },
+  {
+    title: 'KiCAD',
+    competency: 4,
+    category: ['Software', 'PCB Design'],
+  },
+  {
+    title: 'Altium',
+    competency: 3,
+    category: ['Software', 'PCB Design'],
+  },
+  {
+    title: 'Next.JS, TypeScript, Node.JS, React',
+    competency: 3,
+    category: ['Web Development', 'Javascript'],
+  },
+  {
+    title: 'PostgreSQL, MySQL, SQL',
+    competency: 3,
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
-    title: 'Flask',
-    competency: 1,
-    category: ['Web Development', 'Python'],
+    title: 'Git, GitLab, Slack',
+    competency: 4,
+    category: ['Tools', 'Documentation', 'Workspace'],
   },
   {
-    title: 'Git/Mercurial',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Platform',
+    title: 'Google Cloud Platform, Docker, Kubernetes',
     competency: 3,
     category: ['Tools', 'Web Development'],
   },
   {
-    title: 'AWS',
-    competency: 1,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Docker',
-    competency: 3,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Numpy',
+    title: 'Flutter, Dart',
     competency: 4,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
+    category: ['Software', 'Language'],
   },
   {
-    title: 'Tensorflow + Keras',
-    competency: 2,
-    category: ['ML Engineering', 'Python'],
-  },
-  {
-    title: 'Jupyter',
+    title: 'Java',
     competency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Language'],
   },
   {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
+    title: 'Ansys Electronic Desktop',
     competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Python',
-    competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'C++',
-    competency: 2,
-    category: ['Languages'],
+    category: ['Software', 'Python'],
   },
   {
     title: 'MATLAB',
     competency: 3,
-    category: ['Languages'],
+    category: ['Software'],
   },
   {
-    title: 'Data Visualization',
-    competency: 4,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'Pandas',
+    title: 'Android Studio',
     competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Software'],
   },
   {
-    title: 'Matplotlib',
-    competency: 5,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    title: 'LabVIEW',
+    competency: 2,
+    category: ['Software'],
   },
   {
-    title: 'Scikit-Learn',
+    title: 'Quarto',
+    competency: 3,
+    category: ['Documentation'],
+  },
+  {
+    title: 'LaTex',
     competency: 4,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Documentation'],
   },
   {
-    title: 'React',
+    title: 'MS Office',
     competency: 4,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Workspace'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
