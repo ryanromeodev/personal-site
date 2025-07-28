@@ -1,6 +1,7 @@
 import React from 'react';
 
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 import Courses from '@/components/Resume/Courses';
 import Education from '@/components/Resume/Education';
@@ -14,8 +15,7 @@ import work from '@/data/resume/work';
 
 export const metadata: Metadata = {
   title: 'Resume',
-  description:
-    "Ryan Romeo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook.",
+  description: "Ryan Romeo's Resume.",
 };
 
 const sections = [
@@ -31,7 +31,9 @@ export default function ResumePage() {
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2>Resume</h2>
+          <h2>
+            <Link href="/resume">Resume</Link>
+          </h2>
           <div className="link-container">
             {sections.map((section) => (
               <h4 key={section.id}>
@@ -42,14 +44,14 @@ export default function ResumePage() {
         </div>
       </header>
 
-      <section id="education" className="education">
-        <div className="link-to" />
-        <Education data={degrees} />
-      </section>
-
       <section id="experience" className="experience">
         <div className="link-to" />
         <Experience data={work} />
+      </section>
+
+      <section id="education" className="education">
+        <div className="link-to" />
+        <Education data={degrees} />
       </section>
 
       <section id="skills" className="skills">

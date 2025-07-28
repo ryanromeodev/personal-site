@@ -20,8 +20,8 @@ export default function HomePage() {
               <Link href="/about">About this site</Link>
             </h2>
             <p>
-              A beautiful, responsive, statically-generated, react application written with modern
-              Javascript.
+              This site is a snapshot of who I am: my projects, technical skills, professional
+              experience, hobbies, and what I&apos;m currently looking for in my next opportunity.
             </p>
           </div>
         </header>
