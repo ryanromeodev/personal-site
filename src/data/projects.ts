@@ -11,7 +11,7 @@ const data: Project[] = [
   {
     title: 'Estimation of Brewster angle using Frensel equation',
     subtitle: 'as a part of Optical Lab',
-    image: '/images/projects/frenselexp.jpg',
+    image: './images/projects/catdetector.jpg',
     date: '2024-04-20',
     desc: ` This experiment is performed to identify the light reflection
         at an interface between two media. Quantitative verification
