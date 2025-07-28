@@ -21,7 +21,7 @@ export default function HomePage() {
             </h2>
             <p>
               This site is a snapshot of who I am: my projects, technical skills, professional
-              experience, hobbies, and what I&apos;m currently looking for in my next opportunity.
+              experience, and hobbies
             </p>
           </div>
         </header>
@@ -29,7 +29,7 @@ export default function HomePage() {
           {' '}
           Welcome to my website. Please feel free to read more <Link href="/about">about me</Link>,
           or you can check out my <Link href="/resume">resume</Link>,{' '}
-          <Link href="/projects">projects</Link>, view <Link href="/stats">site statistics</Link>,
+          <Link href="/projects">projects</Link>, view my <Link href="/stats">statistics</Link>,
           or <Link href="/contact">contact</Link> me.
         </p>
         <p>
