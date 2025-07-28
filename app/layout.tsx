@@ -38,11 +38,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Ryan Romeo' }],
   creator: 'Ryan Romeo',
-  metadataBase: new URL('https://ryan-romeo.github.io/personal-site/'),
+  metadataBase: new URL('https://ryanr0meow.github.io/personal-site/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://ryanr0me0.github.io/personal-site/',
+    url: 'https://ryanr0meow.github.io/personal-site/',
     siteName: 'Ryan Romeo',
     title: 'Ryan Romeo',
     description: 'Data scientist, machine learning engineer, and full-stack developer.',
