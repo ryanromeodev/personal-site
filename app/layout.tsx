@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description: 'Data scientist, machine learning engineer, and full-stack developer.',
     images: [
       {
-        url: '/images/me.jpg',
+        url: './images/me.jpg',
         width: 1200,
         height: 630,
         alt: 'Ryan Romeo',
