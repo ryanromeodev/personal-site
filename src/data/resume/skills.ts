@@ -13,7 +13,7 @@ const skills: Skill[] = [
   {
     title: 'Python',
     competency: 4,
-    category: ['Languages', 'Python', 'Data Engineering'],
+    category: ['Language', 'Python', 'Data Engineering'],
   },
   {
     title: 'ScipPy, Numpy, Pandas, Matplotlib, Jupyter, Built-in-packages...',
@@ -33,12 +33,12 @@ const skills: Skill[] = [
   {
     title: 'Next.JS, TypeScript, Node.JS, React',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Language'],
   },
   {
     title: 'PostgreSQL, MySQL, SQL',
     competency: 3,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Web Development', 'Databases', 'Language'],
   },
   {
     title: 'Git, GitLab, Slack',

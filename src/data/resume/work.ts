@@ -20,7 +20,7 @@ const work: Position[] = [
     endDate: '',
     summary: 'I worked as **Python automation engineer** for automating Ansys Electronic Desktop',
     highlights: [
-      `my job an responsibility was to develop python code to automate Ansys electronic desktop 
+      `My job an responsibility was to develop python code to automate Ansys electronic desktop 
       using PyAEDT api which could size the best possible solution for the electrostatic and 
       thermal analysis of different types of motors.`,
       `Die Arbeit, Dokumentationen und Besprechungen wurden komplett auf Deutsch durchgeführt.
