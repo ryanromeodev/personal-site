@@ -10,7 +10,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Stats',
-  description: 'Some statistics about Ryan Romeo and ryan-romeo.github.io/personal-site/',
+  description: 'Some statistics about Ryan Romeo and ryanr0me0.github.io/personal-site/',
 };
 
 export default function StatsPage() {
