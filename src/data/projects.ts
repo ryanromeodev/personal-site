@@ -11,7 +11,7 @@ const data: Project[] = [
   {
     title: 'Estimation of Brewster angle using Frensel equation',
     subtitle: 'as a part of Optical Lab',
-    image: './images/projects/catdetector.jpg',
+    image: './images/projects/frenselexp.jpg',
     date: '2024-04-20',
     desc: ` This experiment is performed to identify the light reflection
         at an interface between two media. Quantitative verification
@@ -24,7 +24,7 @@ const data: Project[] = [
     title:
       "Understanding of Linearly polarized light, Malu\'s law, and verification of Optical Acivity",
     subtitle: 'as a part of Optical Lab',
-    image: '/images/projects/malusLaw.jpg',
+    image: './images/projects/malusLaw.jpg',
     date: '2024-05-20',
     desc: ` Measurement of optical activity by polarization rotation in a sugar solution,
         Generation of linearly polarized light with a polaroid filter
@@ -34,7 +34,7 @@ const data: Project[] = [
   {
     title: 'Charecterisation of Laser Radiation',
     subtitle: 'using Labview and Arduino mega 2560',
-    image: '/images/projects/Claser.jpg',
+    image: './images/projects/Claser.jpg',
     date: '2024-06-20',
     desc: `Estimated various parametrs of HeNe Laser. For different distances z the Intensity of the laser beam is recorded by'
         a CCD and the diameter of the laser beam is calculated.`,
@@ -42,7 +42,7 @@ const data: Project[] = [
   {
     title: 'Prototype of 3 - phase measurement system',
     subtitle: 'using Labview and Arduino mega 2560',
-    image: '/images/projects/Lcode.jpg',
+    image: './images/projects/Lcode.jpg',
     date: '2023-08-20',
     desc: `Verification of the output Characteristics of Transistor
         (BC547B) using LabVIEW and familiarization with LabVIEW software`,
