@@ -29,7 +29,7 @@ export default function HomePage() {
           Welcome to my website. Please feel free to read more <Link href="/about">about me</Link>,
           or you can check out my <Link href="/resume">resume</Link>,
           <Link href="/projects">projects</Link>, view my <Link href="/stats">statistics</Link>,
-          or/and <Link href="/contact">contact</Link> me.
+          and/or <Link href="/contact">contact</Link> me.
         </p>
         <p>
           {' '}
