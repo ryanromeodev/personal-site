@@ -12,7 +12,7 @@ const data: Project[] = [
     title:
       'A Biquad Filter that is capable of acting as a Low-pass, High-pass, Band-Pass and Band-stop ',
     subtitle: 'as a part of Optical Lab',
-    image: '/images/projects/filterdesign.png',
+    image: './images/projects/filterdesign.png',
     date: '2024-04-20',
     desc: ` This experiment is performed to identify the light reflection
         at an interface between two media. Quantitative verification
@@ -24,7 +24,7 @@ const data: Project[] = [
   {
     title: 'Flutter/Dart Application with Json I/O, Notification, Theme, Language settings ',
     subtitle: 'as a hobbying project',
-    image: '/images/projects/plantapp.png',
+    image: './images/projects/plantapp.png',
     date: '2024-04-20',
     desc: ` This experiment is performed to identify the light reflection
         at an interface between two media. Quantitative verification
@@ -36,7 +36,7 @@ const data: Project[] = [
   {
     title: 'Estimation of Brewster angle using Frensel equation',
     subtitle: 'as a part of Optical Lab',
-    image: '/images/projects/frenselexp.jpg',
+    image: './images/projects/frenselexp.jpg',
     date: '2024-04-20',
     desc: ` This experiment is performed to identify the light reflection
         at an interface between two media. Quantitative verification

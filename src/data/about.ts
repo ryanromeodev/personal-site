@@ -1,12 +1,9 @@
-export const aboutMarkdown = `I am currently working as a Werkstudent (Student Assistant) at Fraunhofer IFAM (Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung IFAM), Bremen, where I contribute to research and development through simulation and automation tasks using Python, ANSYS Electronics Desktop, and PyAEDT. This role allows me to apply my technical knowledge in real-world scenarios and collaborate on interdisciplinary projects at one of Germany’s leading applied research institutes.
-<br/><br/>
-Previously, I worked as an Assistant Systems Engineer at Tata Consultancy Services Ltd., where I was part of the development team for The Home Depot in the retail domain. My responsibilities included web application development, migration, and deployment, with a strong focus on writing well-tested, maintainable code, producing clear documentation, and working closely with clients in Agile/Scrum environments. I am proficient in C++, Java, Python, and Dart.
-<br/><br/>
-Alongside my professional roles, I am pursuing a Master of Science in Electronics with a specialization in Intelligent Sensors and Instrumentation at Hochschule Bremen. I possess strong communication skills in English and functional working proficiency in German.
-<br/><br/>
-In my free time, I enjoy building personal projects such as a [Plant Care App](https://github.com/oreymaonr/Adenium), developed using Flutter/Dart, featuring timeline-based fertilizing reminders, local JSON-based storage, dark/light theme options, multilingual support, and notification scheduling. I also work with Jupyter notebooks and NumPy for data visualization and analysis, particularly in applications related to electronics and sensor data.
-<br/><br/>
-Additionally, I designed and soldered a Biquad Filter to isolate specific frequencies—especially useful for removing carrier signals from mixed-frequency inputs. This project refreshed my hands-on skills in technologies such as KiCAD for schematic and PCB design, as well as SMD soldering techniques.
-<br/><br/>
-Beyond technical interests, I enjoy playing Minecraft and Skyrim, and reading literature—especially classics like 1984, Les Misérables, and Crime and Punishment, as well as modern novels like Kafka on the Shore.
-`;
+export const aboutMarkdown = `I am currently pursuing a Master of Science in Electronics with a specialization in Intelligent Sensors and Instrumentation at Hochschule Bremen. I possess strong communication skills in English and functional working proficiency in German.
+<br><br>
+Professionally, I previously worked as an Assistant Systems Engineer at Tata Consultancy Services Ltd., where I was part of the development team for The Home Depot in the retail domain. My responsibilities included web application development, migration, and deployment, with a strong focus on writing well-tested, maintainable code, producing clear documentation, and working closely with clients in Agile/Scrum environments. I am proficient in C++, Java, Python, and Dart.
+<br><br>
+I actively develop my skills through personal projects, such as a [Plant Care App](https://github.com/oreymaonr/Adenium) built with Flutter/Dart. It features timeline-based fertilizing reminders, local JSON-based storage, dark/light theme options, multilingual support, and notification scheduling. I also use Jupyter notebooks and NumPy for data visualization and analysis, particularly for applications in electronics and sensor data.
+<br><br>
+To further my practical electronics knowledge, I designed and soldered a Biquad Filter to isolate specific frequencies—a project that refreshed my hands-on skills with KiCAD for schematic/PCB design and SMD soldering techniques.
+<br><br>
+Beyond my technical pursuits, I enjoy gaming (Minecraft and Skyrim) and reading literature, from classics like *1984* and *Crime and Punishment* to modern novels like *Kafka on the Shore*.`;
