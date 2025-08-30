@@ -28,12 +28,8 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Ryan. Currently a werkstudent at {''}
-          <a href="https://www.ifam.fraunhofer.de/">Fraunhofer IFAM Bremen</a> and a master&apos;s
-          student of {''}
-          <a href="https://www.hs-bremen.de/">Hochschule Bremen</a>, having work experience in IT
-          from {''}
-          <a href="https://www.tcs.com/">Tata Consultancy Services Ltd.</a>
+          Hi, I&apos;m Ryan. Master&apos;s student of Electronics Engineering with work experience
+          in IT.
         </p>
         <ul className="actions">
           <li>

@@ -23,7 +23,9 @@ const Cell: React.FC<CellProps> = ({ data }) => (
         <Image src={data.image} alt={data.title} width={600} height={400} />
       </a>
       <div className="description">
-        <p>{data.desc}</p>
+        <p>
+          {data.desc} For more details click <a href={data.link}>here</a>
+        </p>
       </div>
     </article>
   </div>
