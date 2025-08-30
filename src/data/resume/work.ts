@@ -12,22 +12,6 @@ export interface Position {
 }
 
 const work: Position[] = [
-  // {
-  //   name: 'Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung IFAM',
-  //   position: 'Studentische Hilfskrafte',
-  //   url: 'https://www.ifam.fraunhofer.de/',
-  //   startDate: '2021-06-16',
-  //   endDate: '',
-  //   summary: 'I worked as **Python automation engineer** for automating Ansys Electronic Desktop',
-  //   highlights: [
-  //     `My job an responsibility was to develop python code to automate Ansys electronic desktop 
-  //     using PyAEDT api which could size the best possible solution for the electrostatic and 
-  //     thermal analysis of different types of motors.`,
-  //     `Die Arbeit, Dokumentationen und Besprechungen wurden komplett auf Deutsch durchgeführt.
-  //     Die Kaffeepausen mit Gesprächen über Interessen und Hobbys haben mir sehr geholfen, mich in 
-  //     die deutsche Arbeitskultur zu integrieren.`,
-  //   ],
-  // },
   {
     name: 'TATA CONSULTANCY SERVICES Ltd.',
     position: 'Assistant Systems Engineer',
