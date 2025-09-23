@@ -9,28 +9,19 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title:
-      'A Biquad Filter that is capable of acting as a Low-pass, High-pass, Band-Pass and Band-stop ',
+    title: 'A Bi-Quadratic Filter',
     subtitle: 'as a part of Optical Lab',
     image: './images/projects/filterdesign.png',
     date: '2024-04-20',
-    desc: ` This experiment is performed to identify the light reflection
-        at an interface between two media. Quantitative verification
-        of Frensel formulas for reflection of p- and s- polarised light
-        is performed along with measurement of brewster angle for a
-        p-polarised light.`,
+    desc: `This project centers on the analog circuit design of a universal biquad filter (Low Pass, High Pass, Band Stop and Band Pass Filters) targeting a corner frequency of 1 kHz and a quality factor (Q) of 10. The design process spans the complete development cycle—from initial specification and simulation to physical layout and hardware realization. Key phases include schematic design, functional modeling, simulation, and full PCB development.`,
     link: 'https://github.com/ryanromeodev/hsb-amcd-sose2025-5/blob/main/README.md',
   },
   {
-    title: 'Flutter/Dart Application with Json I/O, Notification, Theme, Language settings ',
+    title: 'Plant-App: Flutter/Dart Application',
     subtitle: 'as a hobbying project',
     image: './images/projects/plantapp.png',
     date: '2024-04-20',
-    desc: ` This experiment is performed to identify the light reflection
-        at an interface between two media. Quantitative verification
-        of Frensel formulas for reflection of p- and s- polarised light
-        is performed along with measurement of brewster angle for a
-        p-polarised light.`,
+    desc: `Flutter, Dart Application with File I/O, CRUD, Notification, Themes and Fun for Plant🪴 Enthusiasts and Hobbyist.`,
     link: 'https://github.com/ryanromeodev/Plant-App/blob/main/README.md',
   },
   {

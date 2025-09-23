@@ -26,7 +26,9 @@ const SideBar: React.FC = () => {
       </section>
 
       <section className="blurb">
-        <h2>About</h2>
+        <h2>
+          <Link href="/about">About</Link>
+        </h2>
         <p>
           Hi, I&apos;m Ryan. Master&apos;s student of Electronics Engineering with work experience
           in IT.
