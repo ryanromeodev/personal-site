@@ -13,7 +13,7 @@ const data: Project[] = [
     subtitle: 'as a part of Optical Lab',
     image: './images/projects/filterdesign.png',
     date: '2024-04-20',
-    desc: `This project centers on the analog circuit design of a universal biquad filter (Low Pass, High Pass, Band Stop and Band Pass Filters) targeting a corner frequency of 1 kHz and a quality factor (Q) of 10.`,
+    desc: `This project centers on the analog circuit design of a universal biquad filter targeting a corner frequency of 1 kHz and a quality factor (Q) of 10.`,
     link: 'https://ryanromeodev.github.io/hsb-amcd-sose2025-5/',
   },
   {
@@ -40,8 +40,7 @@ const data: Project[] = [
     image: './images/projects/malusLaw.jpg',
     date: '2024-05-20',
     desc: ` Measurement of optical activity by polarization rotation in a sugar solution,
-        Analyzing polarized light with a linear polarization polaroid filter
-        Understanding properties of linearly polarized light`,
+        Analyzing polarized light with a linear polarization polaroid filter`,
   },
   {
     title: 'Prototype of 3 - phase measurement system',
