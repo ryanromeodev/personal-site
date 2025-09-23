@@ -14,6 +14,7 @@ const messages = [
   'hi',
   'hello',
   'hola',
+  'നമസ്കാരം',
   'you-can-email-me-at-literally-anything! Really',
   'well, not anything. But most things',
   'like-this',
@@ -23,7 +24,6 @@ const messages = [
   'just-saying-hi',
   'please-work-for-us',
   'help',
-  'admin',
   'or-I-really-like-your-website',
   'thanks',
 ];
