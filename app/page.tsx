@@ -24,10 +24,6 @@ export default function HomePage() {
           <Link href="/projects">projects</Link>, view my <Link href="/stats">statistics</Link>,
           and/or <Link href="/contact">contact</Link> me.
         </p>
-        <p>
-          {' '}
-          Source available <a href="https://github.com/ryanromeodev/personal-site">here</a>.
-        </p>
       </article>
     </PageWrapper>
   );
