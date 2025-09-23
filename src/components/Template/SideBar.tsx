@@ -51,7 +51,7 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; <Link href="/">Ryan Romeo.</Link>.
+          &copy; <Link href="/">Ryan Romeo</Link>.
         </p>
       </section>
     </section>
