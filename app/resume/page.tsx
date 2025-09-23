@@ -44,14 +44,14 @@ export default function ResumePage() {
         </div>
       </header>
 
-      <section id="experience" className="experience">
-        <div className="link-to" />
-        <Experience data={work} />
-      </section>
-
       <section id="education" className="education">
         <div className="link-to" />
         <Education data={degrees} />
+      </section>
+
+      <section id="experience" className="experience">
+        <div className="link-to" />
+        <Experience data={work} />
       </section>
 
       <section id="skills" className="skills">
