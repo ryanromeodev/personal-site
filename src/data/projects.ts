@@ -14,7 +14,7 @@ const data: Project[] = [
     image: './images/projects/filterdesign.png',
     date: '2024-04-20',
     desc: `This project centers on the analog circuit design of a universal biquad filter (Low Pass, High Pass, Band Stop and Band Pass Filters) targeting a corner frequency of 1 kHz and a quality factor (Q) of 10. The design process spans the complete development cycle—from initial specification and simulation to physical layout and hardware realization. Key phases include schematic design, functional modeling, simulation, and full PCB development.`,
-    link: 'https://github.com/ryanromeodev/hsb-amcd-sose2025-5/blob/main/README.md',
+    link: 'https://ryanromeodev.github.io/hsb-amcd-sose2025-5/',
   },
   {
     title: 'Plant-App: Flutter/Dart Application',

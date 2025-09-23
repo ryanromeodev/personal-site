@@ -10,7 +10,7 @@ Professionally, I previously worked as an Assistant Systems Engineer at Tata Con
 I actively develop my skills through personal projects, such as a [Plant Care App](https://github.com/oreymaonr/Adenium) built with Flutter/Dart. It features timeline-based fertilizing reminders, local JSON-based storage, dark/light theme options, multilingual support, and notification scheduling. I also use Jupyter notebooks and NumPy for data visualization and analysis, particularly for applications in electronics and sensor data.
 </p><br>
 <p style="text-align: justify;">
-To further my practical electronics knowledge, I designed and soldered a Biquad Filter to isolate specific frequencies—a project that refreshed my hands-on skills with KiCAD for schematic/PCB design and SMD soldering techniques.
+To further my practical electronics knowledge, I designed and soldered a [Biquad Filter](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/) to isolate specific frequencies—a project that refreshed my hands-on skills with KiCAD for schematic/PCB design and SMD soldering techniques.
 </p><br>
 <p style="text-align: justify;">
 Beyond my technical pursuits, I enjoy gaming (Minecraft and Skyrim) and reading literature, from classics like *1984* and *Crime and Punishment* to modern novels like *Kafka on the Shore*.
