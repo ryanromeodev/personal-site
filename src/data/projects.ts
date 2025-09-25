@@ -17,12 +17,12 @@ const data: Project[] = [
     link: 'https://ryanromeodev.github.io/hsb-amcd-sose2025-5/',
   },
   {
-    title: 'Plant-App: Flutter/Dart Application',
+    title: 'Plant-App',
     subtitle: 'as a hobbying project',
     image: './images/projects/plantapp.png',
     date: '2024-04-20',
     desc: `Flutter, Dart Application with File I/O, CRUD, Notification, Themes and Fun for Plant🪴 Enthusiasts and Hobbyist.`,
-    link: 'https://github.com/ryanromeodev/Plant-App/blob/main/README.md',
+    link: 'https://ryanromeodev.github.io/Plant-App/',
   },
   {
     title: 'Estimation of Brewster angle using Frensel equation',
