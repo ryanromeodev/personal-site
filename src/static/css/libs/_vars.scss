@@ -44,6 +44,20 @@ $font: (
   kerning-heading: 0.25em,
 );
 
+// // Palette. dark
+// $palette: (
+//   bg: #0f172a,
+//   bg-alt: #1e293b,
+//   fg: #cbd5e1,
+//   fg-bold: #f1f5f9,
+//   fg-light: #64748b,
+//   border: rgba(100, 116, 139, 0.3),
+//   border-bg: rgba(100, 116, 139, 0.075),
+//   border-alt: rgba(100, 116, 139, 0.65),
+//   accent: #f43f5e,
+// );
+
+
 // Palette.
 $palette: (
   bg: #ffffff,
@@ -54,5 +68,5 @@ $palette: (
   border: rgba(160, 160, 160, 0.3),
   border-bg: rgba(160, 160, 160, 0.075),
   border-alt: rgba(160, 160, 160, 0.65),
-  accent: #ba2e41,
+  accent: #2563eb,
 );
