@@ -15,7 +15,7 @@ export default function HomePage() {
       <article className="post" id="index">
         <header>
           <div className="title">
-            <h2>MScEE | PCB Design | Python Application Development | Ex-TCS</h2>
+            <h2>MSc-EE | PCB Design | Python Application Development | Ex-TCS</h2>
           </div>
         </header>
         <p>
